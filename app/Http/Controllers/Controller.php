@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -11,7 +10,12 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-
-
-
+    /**
+     * Description
+     *
+     * @return string
+     */
+    public function getUser(){
+        return 'user not found';
+    }
 }
